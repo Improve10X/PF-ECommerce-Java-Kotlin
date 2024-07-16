@@ -2,8 +2,8 @@ package kotlinapp
 
 data class Product(
     val name: String,
-    val price: Float,
-    val discountPercentage: Int
+    var price: Float,
+    var discountPercentage: Int
 ) {
 
     fun calculateDiscount(): Float {

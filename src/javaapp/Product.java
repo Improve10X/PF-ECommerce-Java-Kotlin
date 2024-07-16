@@ -24,6 +24,14 @@ public class Product {
         return discountPercentage;
     }
 
+    public void setPrice(float price) {
+        this.price = price;
+    }
+
+    public void setDiscountPercentage(int discountPercentage) {
+        this.discountPercentage = discountPercentage;
+    }
+
     public float calculateDiscount() {
         return price * (discountPercentage / 100.0f);
     }

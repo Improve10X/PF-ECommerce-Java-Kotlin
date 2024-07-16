@@ -1,6 +1,6 @@
 package kotlinapp
 
-class ProductCatalog(val products: List<Product>) {
+class ProductCatalog(val products: MutableList<Product>) {
 
     fun getAllProducts(): List<Product> {
         return products
@@ -11,3 +11,4 @@ class ProductCatalog(val products: List<Product>) {
     }
 
 }
+

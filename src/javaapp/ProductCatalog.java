@@ -1,10 +1,15 @@
 package javaapp;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class ProductCatalog {
 
-    private List<Product> products;
+    public List<Product> products = new ArrayList<>();
+
+    public ProductCatalog() {
+
+    }
 
     public ProductCatalog(List<Product> products) {
         this.products = products;
